@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------------------------------->
+
+    <!--------------------iconos------------------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!---------------------css-------------------------->
+    <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Curriculum Vitae</title>
+
+</head>
+<body>
+     <!------------------cabeza-------------------------->
+    <header class="l-header" id="header">
+    <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Rios</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class='bx bxs-home nav__icon' ></i>Inicio 
+                    </a>    
+                    
+                </li>
+
+                <li class="nav__item">
+                    <a href="#profile" class="nav__link">
+                        <i class='bx bx-user nav__icon' ></i>Perfil
+                    </a>    
+                    
+                </li>
+
+                <li class="nav__item">
+                    <a href="#education" class="nav__link">
+                        <i class='bx bx-book nav__icon' ></i>Educacion
+                    </a>    
+                    
+                </li>
+
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class='bx bx-receipt nav__icon' ></i>Habilidades
+                    </a>    
+                    
+                </li>
+
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">
+                        <i class='bx bx-briefcase-alt nav__icon' ></i>Experiencia 
+                    </a>    
+                    
+                </li>
+
+
+
+            </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt' ></i>
+        </div>
+    </nav>
+
+
+
+    </header>
+    <main class="l-main bd-container">
+         <!-- All elements within this div, is generated in PDF -->
+         <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/Marj.png" alt="" class="home__img">
+                            <h1 class="home__title">Rios <b>Miguel</b> </h1>
+                            <h3 class="home__carrera">Lic. Desarrollo de Software</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/CVMiguelRios.pdf" class="home__button-movil">Descargar</a>
+                            </div>    
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon' ></i> Av.Ramon Arias Panama - Panama
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i> miguel.rios1@utp.ac.pa
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'  ></i> +507 6408-0741
+                            </span>
+
+                        </div>
+                    </div>
+                                  
+                        <!-- CAMBIAR A MODO NOCHE -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        <!-- BOTON PARA GENERAR UN PDF -->
+                        <i class='bx bx-download generate-pdf'title="Generate PDF" id="resume-button"></i>
+
+                </section>          
+                
+             
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+                    <p class="profile__description">
+                        Soy una persona emprendedora, activa, que trabaja en equipo con capacidad de
+                        adaptarme a situaciones nuevas, con la facultad de poder trabajar bajo presión, he
+                        podido trabajar de soporte técnico también en áreas de administración de datos y
+                        realizando trabajos voluntarios como guía en actividades de gran numero de
+                        personas.  
+                    </p>
+                </section>
+                
+                <!--========== EDUCACION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Educacion</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education_content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Bachiller en Ciencias con enfasis en Tecnologia</h3>
+                                <span class="education__studies">Colegia Nuestra Senora de la Paz</span>
+                                <span class="education__year">2010-2015</span>
+
+                            </div>
+                            
+                        </div>
+
+
+
+                        
+                        <div class="education_content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                
+                            </div>
+                            <div class="education__data bd-grid">
+
+                                <h3 class="education__title">Lic. Desarrollo de Software</h3>
+                                <span class="education__studies">Universidad Tecnologia de Panama</span>
+                                <span class="education__year">2016-actualmente</span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!--========== HABILIDADES  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skils__name">
+                                <span class="skills__circle"></span> HTML
+                            </li>
+                            <li class="skils__name">
+                                <span class="skills__circle"></span> CSS
+                            </li>
+                            <li class="skils__name">
+                                <span class="skills__circle"></span> JAVA
+                            </li>
+                            <li class="skils__name">
+                                <span class="skills__circle"></span> JAVASCRIPT
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skils__name">
+                                <span class="skills__circle"></span> C
+                            </li>
+                            <li class="skils__name">
+                                <span class="skills__circle"></span> C++
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiencia</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Soporte Tecnico en Ipacop</h3>
+                                <span class="experience__company">2015 | Ipacop</span>
+                                <p class="experience__description">Encargado del cableado de redes, manejo de software de organizacion y arreglo de equipos de informatica como impresoras.</p>
+
+                            </div>
+                            
+                       </div>                   
+                        
+
+                    </div>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Soporte Tecnico en Unescpa</h3>
+                                <span class="experience__company">2015 | Unescpa</span>
+                                <p class="experience__description">Manejo de computadoras, manejo de equipo dentro de las aulas, arreglo y administarcion de equipos electronicos</p>
+
+                            </div>
+                            
+                       </div>                   
+                        
+
+                    </div>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Lector y Verificador de lectura de bodega</h3>
+                                <span class="experience__company">2018 | Grupo Silaba</span>
+                                <p class="experience__description">Lector de repuesto, Verificador de cada lectura de repuestos y validaciones de coincidencia con la base de datos</p>
+
+                            </div>
+                            
+                       </div>                   
+                        
+
+                    </div>
+
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Asistente de la gestion de base de datos</h3>
+                                <span class="experience__company">2020 | Quimifar S.A.</span>
+                                <p class="experience__description">Asitente en el manejo de la base de datos de la empresa Quimifar S.A. y soporte tecnico a los equipos de la empresa.</p>
+
+                            </div>
+                            
+                       </div>                   
+                        
+
+                    </div>
+
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Gestion de Reportes</h3>
+                                <span class="experience__company">2022 | MINIMED </span>
+                                <p class="experience__description">Gestion y Creacion de reportes de los pacientes de Convid de la empresa MINIMED</p>
+
+                            </div>
+                            
+                       </div>                   
+                        
+
+                    </div>
+
+
+
+                </section>
+
+            
+                <!--========== LENGUAJES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Lenguajes</h2>
+                    <div class="languages__content bd-grid">
+                        <ul class="languages__data">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Español (Nativo)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Ingles (Intermedio)
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Frances (Basico)
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                </section>
+                
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Intereses</h2>
+
+                    <div class="interests__container bd-grid">
+                        
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon' ></i>
+                                <span class="experience__name">Musica</span>
+                                
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-bowl-hot interests__icon' ></i>
+                                <span class="experience__name">Comida</span>
+                                
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book-open interests__icon' ></i>
+                                <span class="experience__name">Arte</span>
+                                
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-planet interests__icon' ></i>
+                                <span class="experience__name">Ciencia</span>
+                                
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="experience__name">Ejercicio</span>
+                                
+                            </div>
+                                                        
+                            <div class="interests__content">
+                                <i class='bx bxs-file-html interests__icon' ></i>
+                                <span class="experience__name">Programacion</span>
+                                
+                            </div>
+
+
+
+                                     
+                        
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!------------------subir arriba-------------------------->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-circle scrolltop__icon'></i>
+        </a>
+    <!------------------GENERARPDF-------------------------->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <!------------------main js-------------------------->
+    <script src="assets/js/main.js">
+
+    </script>
+
+
+</body>
+</html>
